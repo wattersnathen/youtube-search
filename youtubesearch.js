@@ -10,6 +10,7 @@ $(document).ready(function() {
   $(function() {
     $("#search-youtube").submit(function( event ) {
       event.preventDefault();
+      $("form").removeClass("start-middle").addClass("go-high");
       var searchTerm = $("#search-query").val();
       getResults(searchTerm);
     });
