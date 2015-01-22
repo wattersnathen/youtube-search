@@ -46,7 +46,7 @@ $(document).ready(function() {
     $.each(results, function( index, value ) {
       html += "<iframe src='http://www.youtube.com/embed/" + value.id.videoId + "' frameborder='0' allowfullscreen></iframe><br>";
     });
-    $("#search-results").html(html);
+    $("#search-results").detach().html(html).appendTo(".container");
   }
 
 });
