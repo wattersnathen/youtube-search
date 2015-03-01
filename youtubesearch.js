@@ -10,6 +10,9 @@ $(document).ready(function() {
     $("input[type='submit']").attr('value', 'Submit');
   });
 
+  // hack to allow $.getJSON to work in IE
+  $.support.cors = true;
+
   /*
    * Load more videos when the user scrolls to the bottom of the
    * current page. 'Infinite scroll effect'
