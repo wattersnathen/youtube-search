@@ -46,6 +46,12 @@ iframe {
 #search-results {
   margin-bottom: 50px;
 }
+#search-youtube input {
+  border-radius: 5px;
+}
+#search-youtube input:focus {
+  outline: 0;
+}
 
 @media (max-width: 520px) {
   .container {
