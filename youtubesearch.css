@@ -9,35 +9,42 @@ html,
 body { 
   min-height: 100%; 
 }
+body {
+  background: #e1e1e1 url(bkgd.png);
+  font-family: "Segoue", sans-serif;
+  line-height: 1.5em;
+  color: #656565;
+  font-size: 14px;
+}
 .container { 
   width: 50%; 
   height: 100%; 
   margin: 0 auto; 
   text-align: center; 
+  position: relative;
 }
 input { 
   padding: 0.5em 1.25em; 
-}
-#search-youtube { 
-  background: url(youtube-logo.png) no-repeat center center; 
-  background-size: contain; 
 }
 h1 { 
   font-size: 3.4em; 
   font-weight: 900; 
   line-height: 28px; 
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 iframe { 
-  width: 80%; 
-  min-height: 350px; 
+  width: 90%; 
+  min-height: 400px; 
 }
 .start-middle {
-  margin-top: 25%;
+  margin-top: 35%;
 }
 .go-high {
   margin-top: 15px;
   margin-bottom: 22px;
+}
+#search-results {
+  margin-bottom: 50px;
 }
 
 @media (max-width: 520px) {
