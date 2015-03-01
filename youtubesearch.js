@@ -55,6 +55,9 @@ $(document).ready(function() {
       // push the form area to the top of the page
       $("div.start-middle").removeClass("start-middle").addClass("go-high");
 
+      // clear out any old results
+      $("#search-results").html('');
+
       var searchTerm = $("#search-query").val();
       getResults(searchTerm);
     });
