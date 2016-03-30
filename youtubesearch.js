@@ -126,7 +126,7 @@ $(document).ready(function() {
     // redefine YouTube v3 search parameters with added token
     var parameters = {
       part: 'snippet',          // required for YouTube v3 API request
-      key: 'AIzaSyBIVxF2SP7ozlaVsOfTB8nj-1TJhkP3NsI',
+      key: 'AIzaSyDs0QnreUW51APluXF_kEz4yOkJW94m3-s',
       type: 'video',            // only want videos returned
       pageToken: token,         // next page of results
       videoEmbeddable: 'true',  // only return videos that can be embedded
